@@ -1,6 +1,6 @@
 import React from "react";
 import { Stack, Typography, Box, Button } from "@mui/material";
-import BannerImage from "../assets/images/banner.png";
+import BannerImage from "../assets/images/i2.png";
 //typography is text element with styles
 // <Button  sx={{backgroundColor:"#FF25625" , padding:"10px"}} variant='contained' color={'error'} href='exercises'>REGIMES</Button>
 const Banner = () => {
@@ -23,6 +23,17 @@ const Banner = () => {
         BREAK <br />
         BUILD <br />
         REPEAT
+      </Typography>
+      <Typography
+        fontWeight={600}
+        color="#FF2625"
+        sx={{
+          opacity: "0.1",
+          display: { lg: "block", xs: "none" },
+          fontSize: "200px",
+        }}
+      >
+        EXE
       </Typography>
       <Typography
         color={"grey"}
